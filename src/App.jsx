@@ -17,6 +17,7 @@ function App () {
 
     if(!trimSearchInput) {
       setPokemon(null)
+      setError(null)
       return
     }
 
