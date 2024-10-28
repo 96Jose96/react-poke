@@ -1,0 +1,30 @@
+.loading {
+    font-size: 1.2em;
+    color: #808080;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .dots {
+    display: inline-block;
+    width: 1em;
+    text-align: left;
+    overflow: hidden;
+    animation: dots 1.5s steps(3, end) infinite;
+  }
+  
+  @keyframes dots {
+    0% {
+      width: 0;
+    }
+    50% {
+      width: 0.5em;
+    }
+    100% {
+      width: 1em;
+    }
+  }
+  

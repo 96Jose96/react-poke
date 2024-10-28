@@ -1,11 +1,11 @@
-// SearchInput.js
 import React from 'react';
+import styles from './SearchInput.module.css'
 
 function SearchInput({ value, onChange }) {
   return (
     <>
-      <label htmlFor="input">Nombre del Pokémon</label>
-      <input
+      <label htmlFor="input" className={styles.searchInput} >Nombre del Pokémon</label>
+      <input className={styles.searchInput}
         type="text"
         id="input"
         value={value}

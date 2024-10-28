@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import SearchInput from '../components/SearchInput';
-import PokemonInfo from '../components/PokemonInfo';
-import Loading from '../components/Loading';
-import Error from '../components/Error';
+import SearchInput from '../components/searchInput/SearchInput.jsx';
+import PokemonInfo from '../components/pokemonInfo/PokemonInfo.jsx';
+import Loading from '../components/loading/Loading.jsx';
+import Error from '../components/error/Error.jsx';
 import './App.css';
 
 function App () {
